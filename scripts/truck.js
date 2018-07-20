@@ -1,8 +1,8 @@
-(function (window) {
+(function(window) {
   'use strict';
   var App = window.App || {};
 
-  function Truck(truckId, db) {
+  function Truck (truckId, db) {
     this.truckId = truckId;
     this.db = db;
   }
@@ -26,6 +26,7 @@
     }.bind(this));
   };
 
-  App.Truck = Truck;
-  window.App = App;
+App.Truck = Truck;
+window.App = App;
+
 })(window);
